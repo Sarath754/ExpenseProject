@@ -1,0 +1,80 @@
+<!-- <p>expense works!</p> -->
+
+<div class="container">
+
+    <div class="jumbotron">
+
+        <h1 id="one"><strong>Expense Form !!!</strong> </h1>
+
+        <hr id="two">
+
+
+        <form [formGroup]="expenseForm">
+
+            <div class="mb-3">
+
+                <label for=""><strong>Employee Name</strong> </label>
+
+                <input type="text" formControlName="name" name="name" id="" class="form-control">
+
+            </div>
+
+            <div class="mb-3">
+
+                <label for=""><strong>ID</strong> </label>
+
+                <input type="text" formControlName="ID" name="ID" id="" class="form-control">
+
+            </div>
+
+
+            <div class="mb-3">
+
+                <label for=""><strong>Department</strong> </label>
+
+                <input type="text" formControlName="department" name ="name" id="" class="form-control">
+
+            </div>
+
+
+
+
+            <div class="mb-3">
+
+                <label for=""><strong>Purpose</strong> </label>
+
+                <input type="text" formControlName="purpose" name="name" id="" class="form-control">
+
+            </div>
+
+            <div class="mb-3">
+
+                <label for=""><strong>Date</strong> </label>
+
+                <input type="text" formControlName="date" name="name" id="" class="form-control">
+
+            </div>
+
+            <div class="mb-3">
+
+                <label for=""><strong>Cost</strong> </label>
+
+                <input type="text" formControlName="cost" name="name" id="" class="form-control">
+
+            </div>
+
+            <button  type="button" (click)="sumbit()" class="btn btn-success">Sumbit</button>
+
+
+
+
+        </form>
+
+
+
+    </div>
+
+
+
+
+</div>

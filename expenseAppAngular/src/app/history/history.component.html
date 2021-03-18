@@ -1,0 +1,28 @@
+<!-- <p>history works!</p> -->
+<h1 class="one"> HISTORY ! </h1>
+<hr style="height:3px;background-color:rgb(198, 231, 12)">
+<br>
+<table>
+<thead>
+<tr>
+    <td>Employee Name</td>
+    <td>id</td>
+    <td>department</td>
+    <td>purpose</td>
+    <td>date</td>
+    <td>cost</td>
+
+</tr>
+</thead>
+<tbody>
+<tr *ngFor="let item of expenses">
+    <td>{{item.name}}</td>
+    <td>{{item.ID}}</td>
+    <td>{{item.department}}</td>
+    <td>{{item.purpose}}</td>
+    <td>{{item.date}}</td>
+    <td>{{item.cost}}</td>
+
+</tr>
+</tbody>
+</table>
